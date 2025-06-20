@@ -1,0 +1,23 @@
+@media (min-width: 320px) and (max-width: 576px) {
+  .Row1 .Container1 {
+    width: 100%;
+  }
+  .HelpLine .SocialMediaIcon {
+    float: none;
+  }
+}
+
+@media (max-width: 576px) {
+    .Row5, .Row4{
+flex-direction: column;
+    }
+    .Row4 .container4 ,.Row4  .con5 {
+        width: 100%;
+    }
+    .Row5 .con6{
+        width: 100%;
+    }
+    .Row5 .con7{
+        width: 100%;  
+    }
+}
